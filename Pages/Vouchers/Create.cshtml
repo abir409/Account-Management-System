@@ -1,4 +1,85 @@
 ﻿@page
 @model MiniAccountSystem.Pages.Vouchers.CreateModel
 @{
+    ViewData["Title"] = "Create Voucher";
+}
+
+<h2>Create Voucher</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Voucher Type</label>
+        <select asp-for="Voucher.VoucherType" class="form-control">
+            <option value="Journal">Journal</option>
+            <option value="Payment">Payment</option>
+            <option value="Receipt">Receipt</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Voucher Date</label>
+        <input asp-for="Voucher.VoucherDate" class="form-control" type="date" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Reference No</label>
+        <input asp-for="Voucher.ReferenceNo" class="form-control" />
+    </div>
+
+    <h4>Entries</h4>
+
+    <table class="table" id="entriesTable">
+        <thead>
+            <tr>
+                <th>Account</th>
+                <th>Debit</th>
+                <th>Credit</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="entriesBody">
+            <tr>
+                <td>
+                    <select name="Voucher.Entries[0].AccountId" class="form-control">
+                        @foreach (var acc in Model.Accounts)
+                        {
+                            <option value="@acc.AccountId">@acc.AccountName</option>
+                        }
+                    </select>
+                </td>
+                <td><input name="Voucher.Entries[0].DebitAmount" class="form-control" /></td>
+                <td><input name="Voucher.Entries[0].CreditAmount" class="form-control" /></td>
+                <td><button type="button" class="btn btn-danger" onclick="removeRow(this)">X</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button type="button" class="btn btn-secondary" onclick="addRow()">Add Row</button>
+    <button type="submit" class="btn btn-success">Save Voucher</button>
+</form>
+
+@section Scripts {
+    <script>
+        let rowIndex = 1;
+
+        function addRow() {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>
+                    <select name="Voucher.Entries[${rowIndex}].AccountId" class="form-control">
+                                ${`@Html.Raw(string.Join("", Model.Accounts.Select(a => $"<option value='{a.AccountId}'>{a.AccountName}</option>")))`}
+                    </select>
+                </td>
+                <td><input name="Voucher.Entries[${rowIndex}].DebitAmount" class="form-control" /></td>
+                <td><input name="Voucher.Entries[${rowIndex}].CreditAmount" class="form-control" /></td>
+                <td><button type="button" class="btn btn-danger" onclick="removeRow(this)">X</button></td>
+            `;
+            document.getElementById("entriesBody").appendChild(row);
+            rowIndex++;
+        }
+
+        function removeRow(button) {
+            button.closest("tr").remove();
+        }
+    </script>
 }
