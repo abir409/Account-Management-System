@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|c:\\users\\abir\\source\\repos\\miniaccountsystem\\account-management-system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|c:\\users\\abir\\source\\repos\\miniaccountsystem\\account-management-system\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|c:\\users\\abir\\source\\repos\\miniaccountsystem\\account-management-system\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|c:\\users\\abir\\source\\repos\\miniaccountsystem\\account-management-system\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|solutionrelative:data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|c:\\users\\abir\\source\\repos\\miniaccountsystem\\account-management-system\\data\\migrations\\20250629172858_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|solutionrelative:data\\migrations\\20250629172858_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|c:\\users\\abir\\source\\repos\\miniaccountsystem\\account-management-system\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|c:\\users\\abir\\source\\repos\\miniaccountsystem\\account-management-system\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{647F4166-558F-4469-8AE2-255A9D4D5DC4}|MiniAccountSystem.csproj|solutionrelative:pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T19:19:22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAPQAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:27:34.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T18:38:24.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T19:38:47.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250629172858_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Data\\Migrations\\20250629172858_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250629172858_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Data\\Migrations\\20250629172858_InitialCreate.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250629172858_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:26:50.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:14:49.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T19:14:15.043Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
