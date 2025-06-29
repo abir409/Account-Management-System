@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\MiniAccountSystem.csproj": {}
+    "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\MiniAccountSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\MiniAccountSystem.csproj": {
+    "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\MiniAccountSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\MiniAccountSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\MiniAccountSystem.csproj",
         "projectName": "MiniAccountSystem",
-        "projectPath": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\MiniAccountSystem.csproj",
+        "projectPath": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\MiniAccountSystem.csproj",
         "packagesPath": "C:\\Users\\Abir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\obj\\",
+        "outputPath": "C:\\Users\\Abir\\source\\repos\\MiniAccountSystem\\Account-Management-System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,11 +58,23 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
             }
