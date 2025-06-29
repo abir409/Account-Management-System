@@ -290,3 +290,11 @@ C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\obj\Debug
 C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\obj\Debug\net8.0\MiniAccountSystem.pdb
 C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\obj\Debug\net8.0\MiniAccountSystem.genruntimeconfig.cache
 C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\obj\Debug\net8.0\ref\MiniAccountSystem.dll
+C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\bin\Debug\net8.0\RBush.dll
+C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\Abir\source\repos\MiniAccountSystem\Account-Management-System\bin\Debug\net8.0\System.IO.Packaging.dll

@@ -1,0 +1,31 @@
+﻿@page
+@model MiniAccountSystem.Pages.Vouchers.IndexModel
+@{
+    ViewData["Title"] = "Voucher List";
+}
+
+<h2>Voucher List</h2>
+
+<a asp-page-handler="Export" class="btn btn-success mb-3">Export to Excel</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Voucher ID</th>
+            <th>Type</th>
+            <th>Date</th>
+            <th>Reference No</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var v in Model.Vouchers)
+        {
+            <tr>
+                <td>@v.VoucherId</td>
+                <td>@v.VoucherType</td>
+                <td>@v.VoucherDate.ToString("yyyy-MM-dd")</td>
+                <td>@v.ReferenceNo</td>
+            </tr>
+        }
+    </tbody>
+</table>
