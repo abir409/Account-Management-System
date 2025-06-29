@@ -1,0 +1,30 @@
+﻿@page "{id?}"
+@model MiniAccountSystem.Pages.Accounts.ManageModel
+@{
+    ViewData["Title"] = "Manage Account";
+}
+
+<h2>@(Model.Account.AccountId.HasValue ? "Edit" : "Create") Account</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Account.AccountId" />
+
+    <div class="mb-3">
+        <label asp-for="Account.AccountName" class="form-label"></label>
+        <input asp-for="Account.AccountName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Account.AccountType" class="form-label"></label>
+        <input asp-for="Account.AccountType" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Account.ParentId" class="form-label"></label>
+        <input asp-for="Account.ParentId" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+</form>
+

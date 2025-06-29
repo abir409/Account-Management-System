@@ -1,0 +1,39 @@
+﻿@page
+@model MiniAccountSystem.Pages.Accounts.IndexModel
+@{
+    ViewData["Title"] = "Chart of Accounts";
+}
+
+<h2>Chart of Accounts</h2>
+
+<a class="btn btn-primary mb-3" asp-page="Manage">Add New Account</a>
+
+<ul class="list-group">
+    @foreach (var root in Model.AccountTree)
+    {
+        @Html.Raw(RenderAccountTree(root))
+    }
+</ul>
+
+@functions {
+    private string RenderAccountTree(IndexModel.Account acc)
+    {
+        var html = $"<li class='list-group-item'>"
+                 + $"<strong>({acc.AccountId}) {acc.AccountName}</strong> ({acc.AccountType}) "
+                 + $"<a class='btn btn-sm btn-warning' href='/Accounts/Manage?id={acc.AccountId}'>Edit</a> "
+                 + $"<a class='btn btn-sm btn-danger' href='/Accounts/Manage?handler=Delete&id={acc.AccountId}'>Delete</a>";
+
+        if (acc.Children.Any())
+        {
+            html += "<ul class='list-group list-group-flush ms-4'>";
+            foreach (var child in acc.Children)
+            {
+                html += RenderAccountTree(child);
+            }
+            html += "</ul>";
+        }
+
+        html += "</li>";
+        return html;
+    }
+}
